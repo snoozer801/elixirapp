@@ -19,7 +19,7 @@ defmodule Chatter.User do
     |> unique_constraint(:email)
   end
 
-  def reg_changeset(struct, params \\ %{}) do
+   def reg_changeset(struct, params \\ %{}) do
     struct
     |> changeset(params)
     |> cast(params, [:password], [])
@@ -31,8 +31,11 @@ defmodule Chatter.User do
     case changeset do
       %Ecto.Changeset{valid?: true, changes: %{password: p}} ->
         put_change(changeset, :encrypt_pass, Comeonin.Pbkdf2.hashpwsalt(p))
-      _ ->
+
+      _ -> 
         changeset
     end
   end
+
+  
 end

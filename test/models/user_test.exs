@@ -3,7 +3,7 @@ defmodule Chatter.UserTest do
 
   alias Chatter.User
 
-  @valid_attrs %{email: "some email", encrypt_pass: "some encrypt_pass"}
+  @valid_attrs %{email: "some content", encrypt_pass: "some content"}
   @invalid_attrs %{}
 
   test "changeset with valid attributes" do

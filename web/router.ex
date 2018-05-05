@@ -34,6 +34,7 @@ defmodule Chatter.Router do
     get "/chat", PageController, :index
   end
 
+
   # Other scopes may use custom stacks.
   # scope "/api", Chatter do
   #   pipe_through :api

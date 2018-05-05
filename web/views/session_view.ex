@@ -1,3 +1,3 @@
 defmodule Chatter.SessionView do
-  use Chatter.Web, :view
+	use Chatter.Web, :view
 end

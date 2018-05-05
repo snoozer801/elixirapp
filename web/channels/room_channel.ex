@@ -23,4 +23,5 @@ defmodule Chatter.RoomChannel do
     }
     {:noreply, socket}
   end
+
 end

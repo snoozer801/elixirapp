@@ -1,20 +1,13 @@
-# Chatter
+# Phoenix tutorial part 3
+# Finishing our Authentication Module
 
-To start your Phoenix app:
+### In this tutorial, we finish the User and Authenticaiton model for our chat app. 
+## Run `mix.deps get` and `npm install` (or `yarn install`) to install the dependencies, then run `mix ecto.create` to create you db.
+## Run `mix phoenix.server` or `iex -S mix phoenix.server` to run the app. 
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Install Node.js dependencies with `npm install`
-  * Start Phoenix endpoint with `mix phoenix.server`
+### Check out the Youtube Tutorial for this [Phoenix Program](https://youtu.be/sALlJbu_Zx4). Here is our [Youtube Channel](https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg) Subscribe for more content.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+### Check out our blog at [tensor-programming.com](http://tensor-programming.com/).
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+### Our [Twitter](https://twitter.com/TensorProgram) and our [facebook](https://www.facebook.com/Tensor-Programming-1197847143611799/).
 
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
