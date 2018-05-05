@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-md-12">
+    Hello there, <span id="user"><%= @conn.params["user"] %> </span>
+  </div>
+
+  <div class="col-md-8">
+    <h2>Messages:</h2>
+      <ul id="messageList" class="list-unstyled" style="height: 400px; border: 1px solid black; overflow-y: auto;">
+      </ul>
+      <input type="text" id="newMessage" class="form-control">
+  </div>
+  <div class="col-md-4">
+    <h3>Users Online:</h3>
+    <ul id="userList" class="list-unstyled">
+
+    </ul>
+  </div>
+</div>
